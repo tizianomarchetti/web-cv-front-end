@@ -1,0 +1,56 @@
+{
+  "site": {
+    "title": "Tiziano Marchetti",
+    "subtitle": "Sviluppatore web",
+    "url": "tizianomarchetti.onrender.com"
+  },
+  "menu": {
+    "label": {
+      "home": "Home",
+      "education": "Istruzione",
+      "experience": "Esperienza lavorativa",
+      "skills": "Competenze",
+      "contact": "Contatti"
+    }
+  },
+  "page": {
+    "contact": {
+      "disclaimer": "Utilizza il form sottostante per informazioni o richieste di preventivo."
+    }
+  },
+  "form": {
+    "title": {
+      "contactForm": "Modulo di contatto"
+    },
+    "error": {
+      "requiredField": "Compilare correttamente tutti i campi obbligatori.",
+      "contact": "Errore durante l'invio della mail. Riprova più tardi."
+    },
+    "message": {
+      "mail": {
+        "success": "Mail inviata correttamente."
+      }
+    },
+    "label": {
+      "email": "Email",
+      "fullName": "Nome e cognome (facoltativo)",
+      "subject": "Oggetto",
+      "message": "Messaggio",
+      "option": {
+        "quote": "Preventivo",
+        "info": "Informazioni"
+      }
+    },
+    "action": {
+      "send": "Invia"
+    },
+    "select": {
+      "option": {
+        "default": "Seleziona"
+      }
+    }
+  },
+  "modale": {
+    "close": "Chiudi"
+  }
+}

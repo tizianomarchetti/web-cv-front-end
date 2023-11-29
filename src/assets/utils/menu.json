@@ -1,0 +1,38 @@
+[
+    {
+        "id": "home",
+        "label": "menu.label.home",
+        "url": "/home",
+        "redirectUrl": "/",
+        "icon": "fa-solid fa-house",
+        "active": false
+    },
+    {
+        "id": "education",
+        "label": "menu.label.education",
+        "url": "/education",
+        "icon": "fa-solid fa-graduation-cap",
+        "active": false
+    },
+    {
+        "id": "experience",
+        "label": "menu.label.experience",
+        "url": "/experience",
+        "icon": "fa-solid fa-briefcase",
+        "active": false
+    },
+    {
+        "id": "skills",
+        "label": "menu.label.skills",
+        "url": "/skills",
+        "icon": "fa-solid fa-code",
+        "active": false
+    },
+    {
+        "id": "contact",
+        "label": "menu.label.contact",
+        "url": "/contact",
+        "icon": "fa-solid fa-envelope",
+        "active": false
+    }
+]

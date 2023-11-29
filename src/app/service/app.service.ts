@@ -7,18 +7,23 @@ const root = "https://demo-adbr.onrender.com/";
   providedIn: 'root'
 })
 export class AppService {
+  jsonUrl: string = '/assets/utils/{item}.json';
   
   constructor(private http: HttpClient) { }
 
-  test() {
-    const url = root + "hello";
-    return this.http.get(url, {responseType: "text"});
+  getJson(item: string) {
+    return this.http.get(this.jsonUrl.replace('{item}', item))
   }
 
-  testWithName(name: string) {
-    const url = root + "hello";
-    let params = new HttpParams()
-      .append("name", name)
-    return this.http.get(url, {params: params, responseType: "text"});
-  }
+  // test() {
+  //   const url = root + "hello";
+  //   return this.http.get(url, {responseType: "text"});
+  // }
+
+  // testWithName(name: string) {
+  //   const url = root + "hello";
+  //   let params = new HttpParams()
+  //     .append("name", name)
+  //   return this.http.get(url, {params: params, responseType: "text"});
+  // }
 }

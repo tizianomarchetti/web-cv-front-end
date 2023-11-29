@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <img class="rounded-circle mt-5" src="assets/img/foto-cv.jpg" width="200">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card text-center mt-3 border-0">
+        <div class="card-body">
+            <h1 class="card-title">{{'site.title' | translate}}</h1>
+            <h5 class="card-subtitle mb-2 text-muted">{{'site.subtitle' | translate}}</h5>
+            <hr>
+            <div class="m-3">
+                <p *ngFor="let item of contacts" class="card-text">
+                    <a class="text-decoration-none text-dark" [href]="item.href" target="_blank"><i [class]="item.icon"></i>&nbsp;{{item.label}}</a>
+                </p>
+            </div>
+            <hr>
+            <a (click)="null" class="card-link text-dark fw-bold">Download CV</a>
+        </div>
+    </div>
+</div>

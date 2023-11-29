@@ -1,0 +1,56 @@
+{
+  "site": {
+    "title": "Tiziano Marchetti",
+    "subtitle": "Web developer",
+    "url": "tizianomarchetti.onrender.com"
+  },
+  "menu": {
+    "label": {
+      "home": "Home",
+      "education": "Education",
+      "experience": "Work experience",
+      "skills": "Skills",
+      "contact": "Contatti"
+    }
+  },
+  "page": {
+    "contact": {
+      "disclaimer": "Use this form to receive information or to request a quote."
+    }
+  },
+  "form": {
+    "title": {
+      "contactForm": "Contact form"
+    },
+    "error": {
+      "requiredField": "Please correctly fill in all required fields.",
+      "contact": "Error while sending mail. Try again later."
+    },
+    "message": {
+      "mail": {
+        "success": "Mail succesfully sent."
+      }
+    },
+    "label": {
+      "email": "Email",
+      "fullName": "Full Name (optional)",
+      "subject": "Subject",
+      "message": "Message",
+      "option": {
+        "quote": "Quote",
+        "info": "Information"
+      }
+    },
+    "action": {
+      "send": "Send"
+    },
+    "select": {
+      "option": {
+        "default": "Choose"
+      }
+    }
+  },
+  "modale": {
+    "close": "Close"
+  }
+}

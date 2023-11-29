@@ -1,0 +1,38 @@
+[
+    {
+        "id": "mail",
+        "label": "tiz.marchetti@gmail.com",
+        "href": "mailto:tiz.marchetti@gmail.com",
+        "icon": "fa-regular fa-envelope"
+    },
+    {
+        "id": "instagram",
+        "label": "@tizmarchetti",
+        "href": "https://www.instagram.com/tizmarchetti/",
+        "icon": "fab fa-instagram"
+    },
+    {
+        "id": "facebook",
+        "label": "Tiziano Marchetti",
+        "href": "https://www.facebook.com/marchettitiziano",
+        "icon": "fab fa-facebook"
+    },
+    {
+        "id": "whatsapp",
+        "label": "+39 377 979 6207",
+        "href": "https://wa.me/+393779796207",
+        "icon": "fa-brands fa-whatsapp"
+    },
+    {
+        "id": "linkedin",
+        "label": "Tiziano Marchetti",
+        "href": "https://www.linkedin.com/in/tiziano-marchetti-8327981b4/",
+        "icon": "fa-brands fa-linkedin"
+    },
+    {
+        "id": "residence",
+        "label": "Via Salaria per Roma, 38/C - 02100 Rieti (RI)",
+        "href": "https://www.google.com/maps?q=42.3750538,12.8591543&z=17&hl=it",
+        "icon": "fa-solid fa-location-dot"
+    }
+]

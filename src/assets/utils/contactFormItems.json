@@ -1,0 +1,30 @@
+[
+  {
+    "id": "email",
+    "type": "input",
+    "label": "form.label.email",
+    "required": true,
+    "inputType": "email"
+  },
+  {
+    "id": "fullName",
+    "type": "input",
+    "label": "form.label.fullName",
+    "required": true,
+    "inputType": "text"
+  },
+  {
+    "id": "subject",
+    "type": "input",
+    "label": "form.label.subject",
+    "required": true,
+    "inputType": "text"
+  },
+  {
+    "id": "message",
+    "type": "textarea",
+    "label": "form.label.message",
+    "required": true,
+    "textareaRows": 3
+  }
+]

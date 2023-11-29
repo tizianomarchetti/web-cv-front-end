@@ -1,0 +1,12 @@
+[
+    {
+        "id": "it",
+        "alt": "Italiano",
+        "src": "assets/img/it.png"
+    },
+    {
+        "id": "en",
+        "alt": "Inglese",
+        "src": "assets/img/en.png"
+    }
+]

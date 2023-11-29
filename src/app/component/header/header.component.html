@@ -1,0 +1,20 @@
+<!-- <nav class="d-none d-md-flex navbar position-sticky top-0 p-2 mb-2 bg-light" style="z-index: 999!important;">
+    <div class="container-fluid">
+        <div class="row ms-auto">
+            <ng-container *ngTemplateOutlet="menu"></ng-container>
+        </div>
+    </div>
+</nav> -->
+
+<!-- d-md-none  -->
+<nav id="header" class="position-sticky top-0 p-2 mb-2 bg-dark" style="z-index: 999!important;">
+    <div class="container-fluid d-flex justify-content-around">
+        <!-- <div class="row mx-auto"> -->
+            <div class="col text-center" *ngFor="let lang of languages">
+                <a (click)="changeLanguage(lang.id)" style="cursor: pointer;">
+                    <img id="lang.id" [src]="lang.src" [alt]="lang.alt" width="30">
+                </a>
+            </div>
+        <!-- </div> -->
+    </div>
+</nav>
