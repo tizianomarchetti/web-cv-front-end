@@ -30,7 +30,7 @@ export class ContactComponent implements OnInit {
     this.initPayload();
 
     this.appService.getJson('contact').subscribe((res: any) => {
-      this.socials = res.filter(el => el.id !== 'residence');
+      this.socials = res.filter(el => el.id !== 'residence' && el.id !== 'mail');
     })
   }
 

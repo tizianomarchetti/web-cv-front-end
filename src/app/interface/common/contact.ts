@@ -3,4 +3,5 @@ export interface Contact {
     label?: string;
     href: string;
     icon: string;
+    color?: string;
 }
