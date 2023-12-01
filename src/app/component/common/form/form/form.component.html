@@ -1,0 +1,39 @@
+<div *ngIf="messageFieldRequired" class="card border-0">
+    <div class="card-body text-danger fw-bold">
+        {{'form.error.requiredField' | translate}}
+    </div>
+</div>
+
+<form class="row g-3 d-flex mb-5">
+    <div *ngFor="let item of formItems" [class]="'col-' + (item.dimension || 12)">
+        <label [for]="item.id" class="form-label">
+            {{item.label | translate}} <span *ngIf="item.required" class="text-danger"> *</span>
+        </label>
+        <ng-container [ngSwitch]="item.type">
+            <ng-container *ngSwitchCase="'input'">
+                <div class="input-group">
+                    <input [type]="item.inputType" class="form-control" [id]="item.id" [name]="item.id"
+                        [class.border-danger]="messageFieldRequired && emptyRequiredField(item)"
+                        (focusin)="removeErrorBorder($event)" (focusout)="setErrorBorder($event, item)"
+                        [placeholder]="item.placeholder || ''" [(ngModel)]="payload[item.id]">
+                    <button *ngIf="allowInputClear && payload[item.id] && payload[item.id] != ''" type="button"
+                        class="btn bg-transparent" style="margin-left: -40px; z-index: 100;"
+                        (click)="payload[item.id] = null;">
+                        <i class="fa fa-times"></i>
+                    </button>
+                </div>
+            </ng-container>
+            <ng-container *ngSwitchCase="'textarea'">
+                <textarea class="form-control" [id]="item.id" [name]="item.id" [rows]="item.textareaRows"
+                    [class.border-danger]="messageFieldRequired && emptyRequiredField(item)"
+                    (focusin)="removeErrorBorder($event)" (focusout)="setErrorBorder($event, item)"
+                    [(ngModel)]="payload[item.id]"></textarea>
+            </ng-container>
+        </ng-container>
+    </div>
+    <div class="col-12">
+        <button *ngIf="submitText" type="button" class="btn btn-dark w-100 mt-4" (click)="emitFormValues()">
+            {{submitText | translate}}
+        </button>
+    </div>
+</form>
