@@ -1,0 +1,206 @@
+<div class="container mb-5">
+    <h2 class="text-muted"><i class="fa-solid fa-code"></i> &nbsp; {{'menu.label.skills' | translate}}</h2>
+    <hr>
+</div>
+
+<div class="container">
+    <h4 class="text-muted" style="cursor: pointer;" (click)="toggleShow('backend')">
+        <i class="fa-solid fa-terminal"></i> &nbsp; {{'menu.label.backend' | translate}}
+    </h4>
+    <hr>
+
+    <ng-container *ngIf="show.backend">
+        <div class="card mt-3">
+            <div class="card-body text-center">
+                <h5 class="card-title">Java</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Spring Boot</h6>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block" style="width: 20px; height: 20px;"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-body text-center">
+                <h5 class="card-title">C#</h5>
+                <h6 class="card-subtitle mb-2 text-muted">.NET Framework</h6>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block" style="width: 20px; height: 20px;"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-body text-center">
+                <h5 class="card-title">PHP</h5>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block" style="width: 20px; height: 20px;"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-body text-center">
+                <h5 class="card-title">Python</h5>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block" style="width: 20px; height: 20px;"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3 mb-5">
+            <div class="card-body text-center">
+                <h5 class="card-title">C</h5>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block" style="width: 20px; height: 20px;"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+
+    <h4 class="text-muted" style="cursor: pointer;" (click)="toggleShow('frontend')">
+        <i class="fa-solid fa-file-code"></i> &nbsp; {{'menu.label.frontend' | translate}}
+    </h4>
+    <hr>
+
+    <ng-container *ngIf="show.frontend">
+        <div class="card mt-3">
+            <div class="card-body text-center">
+                <h5 class="card-title">HTML</h5>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block" style="width: 20px; height: 20px;"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-body text-center">
+                <h5 class="card-title">CSS</h5>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block" style="width: 20px; height: 20px;"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3 mb-5">
+            <div class="card-body text-center">
+                <h5 class="card-title">Javascript</h5>
+                <h6 class="card-subtitle mb-2 text-muted">JQuery, Typescript, Angular</h6>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block" style="width: 20px; height: 20px;"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+
+    <h4 class="text-muted" style="cursor: pointer;" (click)="toggleShow('sql')">
+        <i class="fa-solid fa-database"></i> &nbsp; {{'menu.label.sql' | translate}}
+    </h4>
+    <hr>
+
+    <ng-container *ngIf="show.sql">
+        <div class="card mt-3">
+            <div class="card-body text-center">
+                <h5 class="card-title">PL-SQL</h5>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block" style="width: 20px; height: 20px;"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-body text-center">
+                <h5 class="card-title">T-SQL</h5>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block" style="width: 20px; height: 20px;"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3 mb-5">
+            <div class="card-body text-center">
+                <h5 class="card-title">MySQL</h5>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-dark d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block me-2" style="width: 20px; height: 20px;"></span>
+                        <span class="rounded-circle bg-secondary d-inline-block" style="width: 20px; height: 20px;"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</div>

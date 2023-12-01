@@ -1,7 +1,8 @@
-<footer id="footer" class="container-fluid d-flex justify-content-around position-fixed bottom-0 p-2 bg-dark">
-    <div *ngFor="let item of menuItems" class="col text-center p-3">
-        <a [routerLink]="item.url" (click)="setActiveMenuItem(item.id)">
-            <i [class]="item.icon + ' fa-xl ' + (item.active ? 'text-light' : 'text-secondary')"></i>
+<footer id="footer" class="container-fluid d-flex justify-content-around position-fixed bottom-0 p-2 bg-light">
+    <div *ngFor="let item of menuItems" class="col text-center p-3" [routerLink]="item.url" 
+        (click)="setActiveMenuItem(item.id)" style="cursor: pointer;">
+        <a>
+            <i [class]="item.icon + ' fa-xl ' + (item.active ? 'text-dark' : 'text-secondary')"></i>
         </a>
     </div>
 </footer>

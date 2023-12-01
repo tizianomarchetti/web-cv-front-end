@@ -8,14 +8,14 @@
     "label": {
       "home": "Home",
       "education": "Education",
+      "languages": "Languages",
+      "courses": "Courses & Certifications",
       "experience": "Work experience",
       "skills": "Skills",
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "sql": "SQL",
       "contact": "Contatti"
-    }
-  },
-  "page": {
-    "contact": {
-      "disclaimer": "Use this form to receive information or to request a quote."
     }
   },
   "form": {
@@ -33,13 +33,9 @@
     },
     "label": {
       "email": "Email",
-      "fullName": "Full Name (optional)",
+      "fullName": "Full Name",
       "subject": "Subject",
-      "message": "Message",
-      "option": {
-        "quote": "Quote",
-        "info": "Information"
-      }
+      "message": "Message"
     },
     "action": {
       "send": "Send"

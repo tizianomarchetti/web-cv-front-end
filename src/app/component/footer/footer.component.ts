@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { MenuItem } from 'src/app/interface/menu-item';
+import { MenuItem } from 'src/app/interface/common/menu-item';
 
 declare var $: any;
 

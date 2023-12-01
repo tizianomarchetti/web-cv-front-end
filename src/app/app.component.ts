@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { AppService } from './service/app.service';
 import { TranslateService } from '@ngx-translate/core';
-import { MenuItem } from './interface/menu-item';
+import { MenuItem } from './interface/common/menu-item';
 import { forkJoin } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { NavigationEnd, Router } from '@angular/router';

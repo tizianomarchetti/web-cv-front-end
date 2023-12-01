@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { LangItem } from 'src/app/interface/lang-item';
+import { LangItem } from 'src/app/interface/common/lang-item';
 import { AppService } from 'src/app/service/app.service';
 
 @Component({

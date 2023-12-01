@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { forkJoin } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { Contact } from 'src/app/interface/contact';
-import { MenuItem } from 'src/app/interface/menu-item';
+import { Contact } from 'src/app/interface/common/contact';
+import { MenuItem } from 'src/app/interface/common/menu-item';
 import { AppService } from 'src/app/service/app.service';
 
 @Component({

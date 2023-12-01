@@ -8,14 +8,14 @@
     "label": {
       "home": "Home",
       "education": "Istruzione",
+      "languages": "Lingue",
+      "courses": "Corsi e certificazioni",
       "experience": "Esperienza lavorativa",
       "skills": "Competenze",
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "sql": "SQL",
       "contact": "Contatti"
-    }
-  },
-  "page": {
-    "contact": {
-      "disclaimer": "Utilizza il form sottostante per informazioni o richieste di preventivo."
     }
   },
   "form": {
@@ -33,13 +33,9 @@
     },
     "label": {
       "email": "Email",
-      "fullName": "Nome e cognome (facoltativo)",
+      "fullName": "Nome e cognome",
       "subject": "Oggetto",
-      "message": "Messaggio",
-      "option": {
-        "quote": "Preventivo",
-        "info": "Informazioni"
-      }
+      "message": "Messaggio"
     },
     "action": {
       "send": "Invia"

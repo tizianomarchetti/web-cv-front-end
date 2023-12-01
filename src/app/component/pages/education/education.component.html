@@ -1,0 +1,109 @@
+<div class="container">
+    <h3 class="text-muted" style="cursor: pointer;" (click)="toggleShow('education')">
+        <i class="fa-solid fa-graduation-cap"></i> &nbsp; {{'menu.label.education' | translate}}
+    </h3>
+    <hr>
+
+    <ng-container *ngIf="show.education">
+        <div class="card mt-3">
+            <div class="card-body">
+                <h5 class="card-title">Centro ELIS, Roma</h5>
+                <h6 class="card-subtitle mb-2 text-muted">10/2020 &nbsp;&ndash;&nbsp; 02/2021</h6>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <small>Talent Program Professional Youth Talent Camp 2020 &nbsp;&ndash;&nbsp; CRM Software Developer</small>
+                    </p>
+                    <ul>
+                        <li><small>C# / .NET</small></li>
+                        <li><small>Basi di dati ed SQL</small></li>
+                        <li><small>Front End Web Developer</small></li>
+                        <li><small>Microsoft Dynamics</small></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="card mt-3">
+            <div class="card-body">
+                <h5 class="card-title">LUISS Business School, Roma</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2018/19</h6>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <small>Master in Media Entertainment &nbsp;&ndash;&nbsp; Major in Music</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="card mt-3">
+            <div class="card-body">
+                <h5 class="card-title">I.S.S.M. “G. Briccialdi”, Terni</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2015 &nbsp;&ndash;&nbsp; 2018</h6>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <small>Laurea AFAM di I livello in Contrabbasso (110/110 e lode)</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="card mt-3 mb-5">
+            <div class="card-body">
+                <h5 class="card-title">I.O. "S. Pertini", Magliano Sabina (RI)</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2006 &nbsp;&ndash;&nbsp; 2011</h6>
+                <hr>
+                <div class="m-3">
+                    <p class="card-text">
+                        <small>Diploma di maturità scientifica</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+
+    <h3 class="text-muted" style="cursor: pointer;" (click)="toggleShow('languages')">
+        <i class="fa-solid fa-globe"></i> &nbsp; {{'menu.label.languages' | translate}}
+    </h3>
+    <hr>
+
+    <ng-container *ngIf="show.languages">
+        <table class="table mt-3 mb-5">
+            <tbody>
+                <tr>
+                    <td>Italiano</td>
+                    <td>Madrelingua</td>
+                </tr>
+                <tr>
+                    <td>Inglese</td>
+                    <td>Fluente (B2)</td>
+                </tr>
+                <tr>
+                    <td>Francese</td>
+                    <td>Buono</td>
+                </tr>
+            </tbody>
+        </table>
+    </ng-container>
+
+    <h3 class="text-muted" style="cursor: pointer;" (click)="toggleShow('courses')">
+        <i class="fa-solid fa-file"></i> &nbsp; {{'menu.label.courses' | translate}}
+    </h3>
+    <hr>
+
+    <ng-container *ngIf="show.courses">
+        <div class="card mt-3">
+            <div class="card-body">
+                <p class="card-title">MTA Software Developement Fundamentals-98-361</p>
+            </div>
+        </div>
+
+        <div class="card mt-3 mb-5">
+            <div class="card-body">
+                <p class="card-title">Cambridge ESOL - First Certificate in English, livello B2</p>
+            </div>
+        </div>
+    </ng-container>
+</div>
