@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { ContactForm } from '../interface/contact-form';
 import { of } from 'rxjs';
 
-const root = "http://localhost:8080/";
+const root = "https://web-cv-back-end.onrender.com/";
 
 @Injectable({
   providedIn: 'root'
