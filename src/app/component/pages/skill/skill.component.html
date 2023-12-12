@@ -1,10 +1,11 @@
 <div class="container mb-5">
-    <h2 class="text-muted"><i class="fa-solid fa-code"></i> &nbsp; {{'menu.label.skills' | translate}}</h2>
+    <h2 class="text-muted text-center"><i class="fa-solid fa-code"></i> &nbsp; {{'menu.label.skills' | translate}}</h2>
     <hr>
 </div>
 
 <div class="container">
-    <h4 class="text-muted" style="cursor: pointer;" (click)="toggleShow('backend')">
+    <h4 class="text-muted text-center" style="cursor: pointer;" (click)="toggleShow('backend')">
+        <!-- <span class="me-auto">{{'menu.label.backend' | translate}}</span><i class="fa-solid fa-terminal ms-auto"></i> -->
         <i class="fa-solid fa-terminal"></i> &nbsp; {{'menu.label.backend' | translate}}
     </h4>
     <hr>
@@ -93,7 +94,8 @@
         </div>
     </ng-container>
 
-    <h4 class="text-muted" style="cursor: pointer;" (click)="toggleShow('frontend')">
+    <h4 class="text-muted text-center" style="cursor: pointer;" (click)="toggleShow('frontend')">
+        <!-- <span class="me-auto">{{'menu.label.frontend' | translate}}</span><i class="fa-solid fa-file-code ms-auto"></i> -->
         <i class="fa-solid fa-file-code"></i> &nbsp; {{'menu.label.frontend' | translate}}
     </h4>
     <hr>
@@ -149,7 +151,8 @@
         </div>
     </ng-container>
 
-    <h4 class="text-muted" style="cursor: pointer;" (click)="toggleShow('sql')">
+    <h4 class="text-muted text-center" style="cursor: pointer;" (click)="toggleShow('sql')">
+        <!-- <span class="me-auto">{{'menu.label.sql' | translate}}</span><i class="fa-solid fa-database ms-auto"></i> -->
         <i class="fa-solid fa-database"></i> &nbsp; {{'menu.label.sql' | translate}}
     </h4>
     <hr>

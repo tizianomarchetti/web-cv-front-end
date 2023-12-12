@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { ContactForm } from '../interface/contact-form';
 import { of } from 'rxjs';
 
-const root = "https://demo-adbr.onrender.com/";
+const root = "http://localhost:8080/";
 
 @Injectable({
   providedIn: 'root'
@@ -29,5 +29,9 @@ export class AppService {
 
   sendMail(form: ContactForm) {
     return of(null);
+  }
+
+  downloadPdf(lang: string) {
+    return this.http.get(root + "getCvPdf/" + lang, {responseType: 'blob'});
   }
 }
