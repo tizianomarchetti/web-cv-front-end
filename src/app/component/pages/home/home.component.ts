@@ -33,8 +33,8 @@ export class HomeComponent implements OnInit {
   }
 
   downloadCv() {
-    let lang: string = this.translate.currentLang;
-    this.appService.downloadPdf(lang).subscribe(blob => saveAs(blob, 'CV Tiziano Marchetti_' + lang.toUpperCase() + '.pdf'));
+    let lang: string = this.translate.currentLang.toUpperCase();
+    this.appService.downloadPdf(lang).subscribe(blob => saveAs(blob, 'CV Tiziano Marchetti_' + lang + '.pdf'));
   }
 
   openFile(lang: string) {
